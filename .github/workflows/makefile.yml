@@ -20,7 +20,7 @@ jobs:
               uses: aws-actions/aws-codebuild-run-build@v1
               with:
                   project-name: CodeBuild-devops-xincloud
-                  image-override: node:latest
+                  image-override: doctrine/nodejs-aws-cli:latest
                   env-vars-for-codebuild: |
                       AWS_ACCESS_KEY_ID,
                       AWS_SECRET_ACCESS_KEY
