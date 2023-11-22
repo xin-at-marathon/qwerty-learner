@@ -1,5 +1,7 @@
-.PHONY: all dev
+.PHONY: all deps dev
 
+deps:
+	npm install
 all:
 	npm run build
 
