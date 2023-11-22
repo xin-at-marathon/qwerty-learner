@@ -2451,6 +2451,17 @@ const programming: DictionaryResource[] = [
     languageCategory: 'code',
   },
   {
+    id: 'javaHelloWorld',
+    name: 'Java: HelloWorld',
+    description: '第一个Java程序',
+    category: '代码练习',
+    tags: ['Java'],
+    url: '/dicts/java-helloWorld.json',
+    length: 14,
+    language: 'code',
+    languageCategory: 'code',
+  },
+  {
     id: 'linuxCommand',
     name: 'Linux',
     description: 'Linux Command',

@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Hello World",
+        "trans": [
+            "你好，世界！程序员最喜欢使用的测试开发环境的程序，通常是学习掌握某个编程领域的入口。"
+        ]
+    },
+    {
+        "name": "java",
+        "trans": [
+            "爪哇岛，印尼最大的岛屿名称，也是该地胜产的一种咖啡豆的名称，也是一种用咖啡豆命名的面向对象的编程语言。"
+        ]
+    },
+    {
+        "name": "main",
+        "trans": [
+            "主要的、主函数，通常是程序执行的入口。"
+        ]
+    },
+    {
+        "name": "public",
+        "trans": [
+            "公共有、公有的，作为类或成员的修饰参数"
+        ]
+    },
+    {
+        "name": "class",
+        "trans": [
+            "类，创建对象时使用的模版"
+        ]
+    },
+    {
+        "name": "static",
+        "trans": [
+            "静态的、用于修饰属于类的成员"
+        ]
+    },
+    {
+        "name": "void",
+        "trans": [
+            "空。用于表示一个函数返回值类型时，表示该函数没有返回值。"
+        ]
+    },
+    {
+        "name": "String",
+        "trans": [
+            "字符串，一个Java用于表示字符串的类"
+        ]
+    },
+    {
+        "name": "args",
+        "trans": [
+            "arguments的缩写，表示参数"
+        ]
+    },
+    {
+        "name": "arguments",
+        "trans": [
+            "参数，函数的参数"
+        ]
+    },
+    {
+        "name": "system.out",
+        "trans": [
+            "系统的标准输出设备，通常指命令行界面的控制台输出。"
+        ]
+    },
+    {
+        "name": "println",
+        "trans": [
+            "print line的缩写，打印输出一行文字"
+        ]
+    },
+    {
+        "name": "public static void main(String[] args)",
+        "trans": [
+            "java入口函数的定义"
+        ]
+    },
+    {
+        "name": "public class Main",
+        "trans": [
+            "定义第一个Java类：Main"
+        ]
+    }
+]
