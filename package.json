@@ -44,6 +44,7 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
+    "dict": "node scripts/update-dict-size.js",
     "build": "cross-env CI=false vite build --base=./",
     "test": "echo \"No tests\"",
     "lint": "eslint .",

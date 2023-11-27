@@ -1,0 +1,278 @@
+[
+    {
+        "name": "Hello World",
+        "trans": [
+            "你好，世界！程序员最喜欢使用的测试开发环境的程序，也是开发者学习掌握某个编程领域的入口。"
+        ]
+    },
+    {
+        "name": "Java",
+        "trans": [
+            "爪哇岛，印尼最大的岛屿名称，也是该地胜产的一种咖啡豆的名称，也是一种用此种咖啡豆命名的面向对象的编程语言。"
+        ]
+    },
+    {
+        "name": "main",
+        "trans": [
+            "主要的、主函数，Java程序的入口函数"
+        ]
+    },
+    {
+        "name": "public",
+        "trans": [
+            "公共的、公有的、用于修饰类或类的成员，表示该类或成员是公有的"
+        ]
+    },
+    {
+        "name": "class",
+        "trans": [
+            "类，创建对象所使用的模板"
+        ]
+    },
+    {
+        "name": "static",
+        "trans": [
+            "静态的、属于类的，用于修饰类的成员，表示该成员属于类，面非属于对象"
+        ]
+    },
+    {
+        "name": "void",
+        "trans": [
+            "空的、用于表示一个函数的返回值类型时，表示该函数没有返回值"
+        ]
+    },
+    {
+        "name": "String",
+        "trans": [
+            "字符串，一个Java里面用于封装字符串的类"
+        ]
+    },
+    {
+        "name": "args",
+        "trans": [
+            "arguments的缩写"
+        ]
+    },
+    {
+        "name": "argument",
+        "trans": [
+            "参数，函数的参数"
+        ]
+    },
+    {
+        "name": "system.out",
+        "trans": [
+            "系统的标准输出设备，通常指命令行界面的标准输出"
+        ]
+    },
+    {
+        "name": "println",
+        "trans": [
+            "print line的缩写，用于输出一行文本信息，并在结尾添加一个换行符"
+        ]
+    },
+    {
+        "name": "public static void main(String[] args)",
+        "trans": [
+            "Java主函数（入口函数）的定义"
+        ]
+    },
+    {
+        "name": "public class Main",
+        "trans": [
+            "定义一个公有的类，类名为：Main"
+        ]
+    },
+    {
+        "name": "kotlin",
+        "trans": [
+            "一种Java语言的扩展，通常用于开发安卓Android应用"
+        ]
+    },
+    {
+        "name": "Android",
+        "trans": [
+            "一种用于移动和嵌入式设备开发的Java开发框架"
+        ]
+    },
+    {
+        "name": "GUI: Graphc User Interface",
+        "trans": [
+            "图形用户界面"
+        ]
+    },
+    {
+        "name": "CLI: Command Line Interface",
+        "trans": [
+            "命令行界面"
+        ]
+    },
+    {
+        "name": "Windows",
+        "trans": [
+            "微软公司开发的桌面操作系统"
+        ]
+    },
+    {
+        "name": "File System",
+        "trans": [
+            "文件系统"
+        ]
+    },
+    {
+        "name": "cd",
+        "trans": [
+            "进入目录，意思为change directory"
+        ]
+    },
+    {
+        "name": "ls",
+        "trans": [
+            "列出当前目录的全部内容，list的缩写"
+        ]
+    },
+    {
+        "name": "mkdir",
+        "trans": [
+            "创建一个目录，make directory的缩写"
+        ]
+    },
+    {
+        "name": "rm",
+        "trans": [
+            "删除文件，remove的缩写"
+        ]
+    },
+    {
+        "name": "rm -rf",
+        "trans": [
+            "删除一个目录"
+        ]
+    },
+    {
+        "name": "cp",
+        "trans": [
+            "复制命令，copy的缩写"
+        ]
+    },
+    {
+        "name": "mv",
+        "trans": [
+            "移动命令，move的缩写"
+        ]
+    },
+    {
+        "name": "ChromeOS",
+        "trans": [
+            "谷歌开发的浏览器操作系统"
+        ]
+    },
+    {
+        "name": "MacOS",
+        "trans": [
+            "苹果公司开发的桌面操作系统"
+        ]
+    },
+    {
+        "name": "Linux",
+        "trans": [
+            "一种合适最广泛的开源的操作系统，通常用于服务器"
+        ]
+    },
+    {
+        "name": "Virtual",
+        "trans": [
+            "虚拟的"
+        ]
+    },
+    {
+        "name": "Machine",
+        "trans": [
+            "机器"
+        ]
+    },
+    {
+        "name": "VM",
+        "trans": [
+            "虚拟机，Virtual Machine的缩写"
+        ]
+    },
+    {
+        "name": "Application",
+        "trans": [
+            "应用、应用程序"
+        ]
+    },
+    {
+        "name": "OS",
+        "trans": [
+            "操作系统，Operation System的缩写"
+        ]
+    },
+    {
+        "name": "Docker",
+        "trans": [
+            "一种容器化技术"
+        ]
+    },
+    {
+        "name": "Container",
+        "trans": [
+            "集装箱；容器，一种程序及其依赖的封装和隔离技术"
+        ]
+    },
+    {
+        "name": "Image",
+        "trans": [
+            "图片、镜像"
+        ]
+    },
+    {
+        "name": "Compiler",
+        "trans": [
+            "编译器，用于将可阅读的代码转变为机器可执行代码的程序"
+        ]
+    },
+    {
+        "name": "Linker",
+        "trans": [
+            "链接器，用于将多个可执行的程序连接到一起的程序"
+        ]
+    },
+    {
+        "name": "Assembler",
+        "trans": [
+            "汇编器，用于将汇编语言代码转变为01机器码的程序"
+        ]
+    },
+    {
+        "name": "Pre-processor",
+        "trans": [
+            "预处理器，用于处理宏和包含指令的程序，通常见于c/c++语言的程序"
+        ]
+    },
+    {
+        "name": "byte-code",
+        "trans": [
+            "字节码，一种用于虚拟机执行的特殊的机器代码"
+        ]
+    },
+    {
+        "name": "python",
+        "trans": [
+            "蟒蛇、巨蛇：一种基于虚拟机的解释执行的编程语言"
+        ]
+    },
+    {
+        "name": "javascript",
+        "trans": [
+            "一种在浏览器中解释执行的编程语言"
+        ]
+    },
+    {
+        "name": "golang",
+        "trans": [
+            "一种由 Google 公司开发的，解决多核处理器优化、系统的网络化、大规模计算机集群和 Web 编程模型而带来的一系列问题的编程语言。"
+        ]
+    }
+]

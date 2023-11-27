@@ -3,6 +3,7 @@
 deps:
 	npm install
 all:
+	npm run dict
 	npm run build
 
 NAME:=qwerty-xincloud-io
