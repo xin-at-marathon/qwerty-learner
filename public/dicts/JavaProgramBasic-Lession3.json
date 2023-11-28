@@ -38,13 +38,19 @@
     {
         "name": "implicit",
         "trans": [
-            "隐含的"
+            "隐含的、隐性的、不明确表达的"
         ]
     },
     {
         "name": "automatic",
         "trans": [
             "自动的"
+        ]
+    },
+    {
+        "name": "explicit",
+        "trans": [
+            "显性的、显式的、明确声明的"
         ]
     },
     {
@@ -99,6 +105,138 @@
         "name": "random",
         "trans": [
             "随机的"
+        ]
+    },
+    {
+        "name": "sort",
+        "trans": [
+            "排序"
+        ]
+    },
+    {
+        "name": "final",
+        "trans": [
+            "最终的、终结的"
+        ]
+    },
+    {
+        "name": "format",
+        "trans": [
+            "格式化、格式"
+        ]
+    },
+    {
+        "name": "currency",
+        "trans": [
+            "货币"
+        ]
+    },
+    {
+        "name": "scan",
+        "trans": [
+            "扫描"
+        ]
+    },
+    {
+        "name": "System.in",
+        "trans": [
+            "系统的标准输入设备，通常指命令行界面的用户输入"
+        ]
+    },
+    {
+        "name": "next",
+        "trans": [
+            "下一个"
+        ]
+    },
+    {
+        "name": "name",
+        "trans": [
+            "名字、名称"
+        ]
+    },
+    {
+        "name": "mortgage",
+        "trans": [
+            "分期偿还的贷款、分期付款"
+        ]
+    },
+    {
+        "name": "principal",
+        "trans": [
+            "贷款金额，借款本金"
+        ]
+    },
+    {
+        "name": "year",
+        "trans": [
+            "年"
+        ]
+    },
+    {
+        "name": "payment",
+        "trans": [
+            "支付、偿还、还款"
+        ]
+    },
+    {
+        "name": "annual",
+        "trans": [
+            "一年的、以年为单位的、每年的"
+        ]
+    },
+    {
+        "name": "interest",
+        "trans": [
+            "利息；兴趣"
+        ]
+    },
+    {
+        "name": "month",
+        "trans": [
+            "月"
+        ]
+    },
+    {
+        "name": "monthly",
+        "trans": [
+            "按月的、每月的、一月的"
+        ]
+    },
+    {
+        "name": "power",
+        "trans": [
+            "次幂；威力、力量"
+        ]
+    },
+    {
+        "name": "percent",
+        "trans": [
+            "百分比"
+        ]
+    },
+    {
+        "name": "input",
+        "trans": [
+            "输入"
+        ]
+    },
+    {
+        "name": "output",
+        "trans": [
+            "输出"
+        ]
+    },
+    {
+        "name": "period",
+        "trans": [
+            "周期；一段时间；"
+        ]
+    },
+    {
+        "name": "%",
+        "trans": [
+            "取余数的运算符"
         ]
     }
 ]

@@ -328,5 +328,71 @@
         "trans": [
             "外壳，指操作系统内核的外壳，通常是命令行的操作界面"
         ]
+    },
+    {
+        "name": "open",
+        "trans": [
+            "打开"
+        ]
+    },
+    {
+        "name": "close",
+        "trans": [
+            "关闭"
+        ]
+    },
+    {
+        "name": "file",
+        "trans": [
+            "文件"
+        ]
+    },
+    {
+        "name": "folder",
+        "trans": [
+            "文件夹、文件目录"
+        ]
+    },
+    {
+        "name": "directory",
+        "trans": [
+            "目录、文件夹"
+        ]
+    },
+    {
+        "name": "install",
+        "trans": [
+            "安装"
+        ]
+    },
+    {
+        "name": "uninstall",
+        "trans": [
+            "卸载、删除应用、反安装"
+        ]
+    },
+    {
+        "name": "reinstall",
+        "trans": [
+            "重新安装"
+        ]
+    },
+    {
+        "name": "extension",
+        "trans": [
+            "扩展"
+        ]
+    },
+    {
+        "name": "explorer",
+        "trans": [
+            "浏览器"
+        ]
+    },
+    {
+        "name": "save",
+        "trans": [
+            "保存"
+        ]
     }
 ]
