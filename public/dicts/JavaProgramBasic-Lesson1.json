@@ -274,5 +274,59 @@
         "trans": [
             "一种由 Google 公司开发的，解决多核处理器优化、系统的网络化、大规模计算机集群和 Web 编程模型而带来的一系列问题的编程语言。"
         ]
+    },
+    {
+        "name": "develop",
+        "trans": [
+            "开发"
+        ]
+    },
+    {
+        "name": "operate",
+        "trans": [
+            "运营"
+        ]
+    },
+    {
+        "name": "DevOps",
+        "trans": [
+            "开发运维一体化，通常指代一个程序的完整的生命周期"
+        ]
+    },
+    {
+        "name": "vscode",
+        "trans": [
+            "一个用于多种语言程序开发的集成开发环境"
+        ]
+    },
+    {
+        "name": "Integrate",
+        "trans": [
+            "集成"
+        ]
+    },
+    {
+        "name": "Environment",
+        "trans": [
+            "环境"
+        ]
+    },
+    {
+        "name": "IDE",
+        "trans": [
+            "集成开发环境Integrated Development Environment的缩写"
+        ]
+    },
+    {
+        "name": "git",
+        "trans": [
+            "一种开源的分布式源代码管理工具"
+        ]
+    },
+    {
+        "name": "shell",
+        "trans": [
+            "外壳，指操作系统内核的外壳，通常是命令行的操作界面"
+        ]
     }
 ]

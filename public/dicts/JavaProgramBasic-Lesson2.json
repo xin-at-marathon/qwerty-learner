@@ -10,5 +10,455 @@
         "trans": [
             "公爵，Java开源社区的吉祥物"
         ]
+    },
+    {
+        "name": "Java",
+        "trans": [
+            "爪哇岛，印尼最大的岛屿名称；一种以当地出产的咖啡命名的程序设计语言的名字；"
+        ]
+    },
+    {
+        "name": "Edition",
+        "trans": [
+            "版本系列，修订版本"
+        ]
+    },
+    {
+        "name": "standard",
+        "trans": [
+            "标准的"
+        ]
+    },
+    {
+        "name": "Java SE",
+        "trans": [
+            "Java标准版 Standard Edition"
+        ]
+    },
+    {
+        "name": "Enterprise",
+        "trans": [
+            "企业的"
+        ]
+    },
+    {
+        "name": "Java EE",
+        "trans": [
+            "Java企业版 Enterprise Edition"
+        ]
+    },
+    {
+        "name": "Mobile",
+        "trans": [
+            "移动的"
+        ]
+    },
+    {
+        "name": "Java ME",
+        "trans": [
+            "Java移动版 Mobile Edition"
+        ]
+    },
+    {
+        "name": "Oracle",
+        "trans": [
+            "先知、神谕、甲骨文公司"
+        ]
+    },
+    {
+        "name": "Microsoft",
+        "trans": [
+            "微软公司"
+        ]
+    },
+    {
+        "name": "Kit",
+        "trans": [
+            "工具包、工具套件"
+        ]
+    },
+    {
+        "name": "JDK",
+        "trans": [
+            "Java Development Kit Java开发工具包"
+        ]
+    },
+    {
+        "name": "runtime",
+        "trans": [
+            "运行时、运行环境"
+        ]
+    },
+    {
+        "name": "environment",
+        "trans": [
+            "环境"
+        ]
+    },
+    {
+        "name": "JRE",
+        "trans": [
+            "Java Runtime Environment Java运行时环境"
+        ]
+    },
+    {
+        "name": "Amazon",
+        "trans": [
+            "亚马逊雨林，亚马逊公司"
+        ]
+    },
+    {
+        "name": "download",
+        "trans": [
+            "下载"
+        ]
+    },
+    {
+        "name": "function",
+        "trans": [
+            "函数"
+        ]
+    },
+    {
+        "name": "send",
+        "trans": [
+            "发送"
+        ]
+    },
+    {
+        "name": "email",
+        "trans": [
+            "邮件"
+        ]
+    },
+    {
+        "name": "square",
+        "trans": [
+            "平方"
+        ]
+    },
+    {
+        "name": "method",
+        "trans": [
+            "方法"
+        ]
+    },
+    {
+        "name": "call",
+        "trans": [
+            "呼叫、调用"
+        ]
+    },
+    {
+        "name": "return",
+        "trans": [
+            "返回"
+        ]
+    },
+    {
+        "name": "parameter",
+        "trans": [
+            "参数"
+        ]
+    },
+    {
+        "name": "integer",
+        "trans": [
+            "整数"
+        ]
+    },
+    {
+        "name": "int",
+        "trans": [
+            "整形数类型"
+        ]
+    },
+    {
+        "name": "modifier",
+        "trans": [
+            "修饰符"
+        ]
+    },
+    {
+        "name": "primitive type",
+        "trans": [
+            "原始类型"
+        ]
+    },
+    {
+        "name": "reference type",
+        "trans": [
+            "引用类型"
+        ]
+    },
+    {
+        "name": "cast",
+        "trans": [
+            "类型转换"
+        ]
+    },
+    {
+        "name": "Number",
+        "trans": [
+            "数值的"
+        ]
+    },
+    {
+        "name": "String",
+        "trans": [
+            "字符串"
+        ]
+    },
+    {
+        "name": "Array",
+        "trans": [
+            "数组"
+        ]
+    },
+    {
+        "name": "calculate",
+        "trans": [
+            "计算"
+        ]
+    },
+    {
+        "name": "age",
+        "trans": [
+            "年龄"
+        ]
+    },
+    {
+        "name": "my",
+        "trans": [
+            "我的"
+        ]
+    },
+    {
+        "name": "her",
+        "trans": [
+            "她的"
+        ]
+    },
+    {
+        "name": "byte",
+        "trans": [
+            "字节"
+        ]
+    },
+    {
+        "name": "short",
+        "trans": [
+            "短的"
+        ]
+    },
+    {
+        "name": "long",
+        "trans": [
+            "长的"
+        ]
+    },
+    {
+        "name": "float",
+        "trans": [
+            "浮动的，浮点的小数"
+        ]
+    },
+    {
+        "name": "double",
+        "trans": [
+            "双的，双精度的小数"
+        ]
+    },
+    {
+        "name": "boolean",
+        "trans": [
+            "Java的布尔类型"
+        ]
+    },
+    {
+        "name": "char",
+        "trans": [
+            "Java的字符类型，character的缩写"
+        ]
+    },
+    {
+        "name": "true",
+        "trans": [
+            "真"
+        ]
+    },
+    {
+        "name": "false",
+        "trans": [
+            "假"
+        ]
+    },
+    {
+        "name": "hit",
+        "trans": [
+            "访问，点击"
+        ]
+    },
+    {
+        "name": "count",
+        "trans": [
+            "计数"
+        ]
+    },
+    {
+        "name": "price",
+        "trans": [
+            "价格"
+        ]
+    },
+    {
+        "name": "click",
+        "trans": [
+            "鼠标点击"
+        ]
+    },
+    {
+        "name": "date",
+        "trans": [
+            "日期"
+        ]
+    },
+    {
+        "name": "time",
+        "trans": [
+            "时间"
+        ]
+    },
+    {
+        "name": "now",
+        "trans": [
+            "现在"
+        ]
+    },
+    {
+        "name": "Point",
+        "trans": [
+            "点、坐标点"
+        ]
+    },
+    {
+        "name": "message",
+        "trans": [
+            "消息"
+        ]
+    },
+    {
+        "name": "mutable",
+        "trans": [
+            "可变的"
+        ]
+    },
+    {
+        "name": "immutable",
+        "trans": [
+            "不可变的"
+        ]
+    },
+    {
+        "name": "length",
+        "trans": [
+            "长度"
+        ]
+    },
+    {
+        "name": "index",
+        "trans": [
+            "下标、索引"
+        ]
+    },
+    {
+        "name": "replace",
+        "trans": [
+            "替换"
+        ]
+    },
+    {
+        "name": "lowercase",
+        "trans": [
+            "小写的"
+        ]
+    },
+    {
+        "name": "uppercase",
+        "trans": [
+            "大写的"
+        ]
+    },
+    {
+        "name": "trim",
+        "trans": [
+            "修剪"
+        ]
+    },
+    {
+        "name": "escape",
+        "trans": [
+            "逃跑，字符转义"
+        ]
+    },
+    {
+        "name": "echo",
+        "trans": [
+            "回声、回显"
+        ]
+    },
+    {
+        "name": "bash",
+        "trans": [
+            "一种命令行用户交互界面的软件"
+        ]
+    },
+    {
+        "name": "version",
+        "trans": [
+            "版本"
+        ]
+    },
+    {
+        "name": "Web",
+        "trans": [
+            "网页、万维网"
+        ]
+    },
+    {
+        "name": "frontend",
+        "trans": [
+            "前端"
+        ]
+    },
+    {
+        "name": "backend",
+        "trans": [
+            "后端"
+        ]
+    },
+    {
+        "name": "Mobile App",
+        "trans": [
+            "移动应用"
+        ]
+    },
+    {
+        "name": "server",
+        "trans": [
+            "服务器"
+        ]
+    },
+    {
+        "name": "database",
+        "trans": [
+            "数据库"
+        ]
+    },
+    {
+        "name": "API",
+        "trans": [
+            "应用编程接口：Application Programing Interface"
+        ]
     }
 ]

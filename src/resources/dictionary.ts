@@ -2678,6 +2678,10 @@ const germanExam: DictionaryResource[] = [
     language: 'en',
     languageCategory: 'de',
   },
+]
+
+// java程序设计基础
+const javaProgramBasic: DictionaryResource[] = [
   {
     id: 'JavaProgramBasic-Lesson1',
     name: '第1讲：HelloWorld',
@@ -2685,7 +2689,7 @@ const germanExam: DictionaryResource[] = [
     category: '代码练习',
     tags: ['程序设计基础'],
     url: '/dicts/JavaProgramBasic-Lesson1.json',
-    length: 46,
+    length: 55,
     language: 'code',
     languageCategory: 'code',
   },
@@ -2696,7 +2700,18 @@ const germanExam: DictionaryResource[] = [
     category: '代码练习',
     tags: ['程序设计基础'],
     url: '/dicts/JavaProgramBasic-Lesson2.json',
-    length: 2,
+    length: 77,
+    language: 'code',
+    languageCategory: 'code',
+  },
+  {
+    id: 'JavaProgramBasic-Lession3',
+    name: '第2讲：Java基础知识',
+    description: 'Java的运行环境、集成开发环境',
+    category: '代码练习',
+    tags: ['程序设计基础'],
+    url: '/dicts/JavaProgramBasic-Lession3.json',
+    length: 17,
     language: 'code',
     languageCategory: 'code',
   },
@@ -2713,6 +2728,7 @@ export const dictionaryResources: DictionaryResource[] = [
   ...programming,
   ...japaneseExam,
   ...germanExam,
+  ...javaProgramBasic,
 
   // {
   //   id: 'zhtest',

@@ -1,0 +1,104 @@
+[
+    {
+        "name": "number",
+        "trans": [
+            "数字"
+        ]
+    },
+    {
+        "name": "another",
+        "trans": [
+            "另一个"
+        ]
+    },
+    {
+        "name": "exception",
+        "trans": [
+            "异常"
+        ]
+    },
+    {
+        "name": "deep",
+        "trans": [
+            "深度的、深的"
+        ]
+    },
+    {
+        "name": "PI",
+        "trans": [
+            "圆周率"
+        ]
+    },
+    {
+        "name": "result",
+        "trans": [
+            "结果"
+        ]
+    },
+    {
+        "name": "implicit",
+        "trans": [
+            "隐含的"
+        ]
+    },
+    {
+        "name": "automatic",
+        "trans": [
+            "自动的"
+        ]
+    },
+    {
+        "name": "casting",
+        "trans": [
+            "类型转换"
+        ]
+    },
+    {
+        "name": "parse",
+        "trans": [
+            "解析"
+        ]
+    },
+    {
+        "name": "math",
+        "trans": [
+            "数学"
+        ]
+    },
+    {
+        "name": "round",
+        "trans": [
+            "圆的，取整"
+        ]
+    },
+    {
+        "name": "ceiling",
+        "trans": [
+            "天花板，向上取整"
+        ]
+    },
+    {
+        "name": "floor",
+        "trans": [
+            "地板，向下取整"
+        ]
+    },
+    {
+        "name": "max",
+        "trans": [
+            "最大的"
+        ]
+    },
+    {
+        "name": "min",
+        "trans": [
+            "最小的"
+        ]
+    },
+    {
+        "name": "random",
+        "trans": [
+            "随机的"
+        ]
+    }
+]
