@@ -2706,8 +2706,8 @@ const javaProgramBasic: DictionaryResource[] = [
   },
   {
     id: 'JavaProgramBasic-Lession3',
-    name: '第2讲：Java基础知识',
-    description: 'Java的运行环境、集成开发环境',
+    name: '第3讲：数组、常量和数学运算',
+    description: '数组、数学运算、类型转换、贷款计算器',
     category: '代码练习',
     tags: ['程序设计基础'],
     url: '/dicts/JavaProgramBasic-Lession3.json',
