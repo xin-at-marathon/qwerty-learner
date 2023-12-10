@@ -4,7 +4,6 @@ phases:
   build:
     commands:
       - echo started on `date`
-      - export BUILD_ID=`cut -d ":" -f2 <<< $JOB_BUILD_ID`
       - aws s3 cp s3://$ARTIFACT_BUCKET/codebuild/$BUILD_ID/output.zip output.zip
       - unzip output.zip
       - make deploy

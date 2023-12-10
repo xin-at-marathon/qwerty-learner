@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     outputs:
-      build-id: ${{ steps.codebuild.outputs['aws-build-id'] }}
+      build-id: ${{ steps.parse.outputs.build_id }}
     steps:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
@@ -25,6 +25,12 @@ jobs:
           project-name: CodeBuild-devops-xincloud
           image-override: doctrine/nodejs-aws-cli:latest
           buildspec-override: .pipeline/build.yml
+      - id: parse
+        env:
+          AWS_BUILD_ID: ${{ steps.codebuild.outputs['aws-build-id'] }}
+        run: |
+          export BUILD_ID=`cut -d ":" -f2 <<< $AWS_BUILD_ID`
+          echo "build_id=$BUILD_ID" >> $GITHUB_OUTPUT
   deploy:
     needs: ['build']
     runs-on: ubuntu-latest
@@ -42,12 +48,12 @@ jobs:
           image-override: bryt/aws-cli:latest
           buildspec-override: .pipeline/deploy.yml
           env-vars-for-codebuild: |
-            JOB_BUILD_ID,
+            BUILD_ID,
             ARTIFACT_BUCKET,
             AWS_ACCESS_KEY_ID,
             AWS_SECRET_ACCESS_KEY
         env:
-          JOB_BUILD_ID: ${{ needs.build.outputs['build-id'] }}
+          BUILD_ID: ${{ needs.build.outputs['build-id'] }}
           ARTIFACT_BUCKET: artifact-bucket-devops-xincloud
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
