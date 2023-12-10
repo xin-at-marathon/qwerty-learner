@@ -9,21 +9,31 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      build-id: ${{ steps.codebuild.outputs.aws-build-id }}
     steps:
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1
-      - name: Run CodeBuild
+      - id: codebuild
+        name: Build artifact
         uses: aws-actions/aws-codebuild-run-build@v1
         with:
           project-name: CodeBuild-devops-xincloud
           image-override: doctrine/nodejs-aws-cli:latest
+          buildspec-override: .pipeline/build.yml
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload to S3 bucket
+        uses: aws-actions/aws-codebuild-run-build@v1
+        with:
+          project-name: CodeBuild-devops-xincloud
+          image-override: bryt/aws-cli:latest
+          buildspec-override: .pipeline/deploy.yml
           env-vars-for-codebuild: |
+            BUILD_ID,
             AWS_ACCESS_KEY_ID,
             AWS_SECRET_ACCESS_KEY
         env:
+          BUILD_ID: ${{ jobs.build.outputs.build-id }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
