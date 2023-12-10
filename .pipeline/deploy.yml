@@ -4,6 +4,6 @@ phases:
   build:
     commands:
       - echo started on `date`
-      - aws s3 cp s3://artifact-bucket-devops-xincloud/codebuild/$JOB_BUILD_ID/output.zip output.zip
+      - BUILD_ID=`cut -d ":" -f2 <<< $JOB_BUILD_ID` aws s3 cp s3://artifact-bucket-devops-xincloud/codebuild/$BUILD_ID/output.zip output.zip
       - unzip output.zip
       - make deploy
