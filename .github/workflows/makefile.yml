@@ -43,9 +43,11 @@ jobs:
           buildspec-override: .pipeline/deploy.yml
           env-vars-for-codebuild: |
             JOB_BUILD_ID,
+            ARTIFACT_BUCKET,
             AWS_ACCESS_KEY_ID,
             AWS_SECRET_ACCESS_KEY
         env:
           JOB_BUILD_ID: ${{ needs.build.outputs['build-id'] }}
+          ARTIFACT_BUCKET: artifact-bucket-devops-xincloud
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
