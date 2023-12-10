@@ -1,0 +1,62 @@
+[
+    {
+        "name": "html",
+        "trans": [
+            "超文本标志语言：Hyper-text mark language"
+        ]
+    },
+    {
+        "name": "head",
+        "trans": [
+            "头部"
+        ]
+    },
+    {
+        "name": "body",
+        "trans": [
+            "主体"
+        ]
+    },
+    {
+        "name": "heading",
+        "trans": [
+            "标题"
+        ]
+    },
+    {
+        "name": "paragraph",
+        "trans": [
+            "段落"
+        ]
+    },
+    {
+        "name": "title",
+        "trans": [
+            "标题"
+        ]
+    },
+    {
+        "name": "package",
+        "trans": [
+            "包"
+        ]
+    },
+    {
+        "name": "url",
+        "trans": [
+            "唯一的资源定位符：Unique Resource locator"
+        ]
+    },
+    {
+        "name": "inspect",
+        "trans": [
+            "检视、检察、视察"
+        ]
+    },
+    {
+        "name": "mount",
+        "trans": [
+            "加载"
+        ]
+    }
+]

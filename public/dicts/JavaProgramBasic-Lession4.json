@@ -1,0 +1,176 @@
+[
+    {
+        "name": "temperature",
+        "trans": [
+            "温度"
+        ]
+    },
+    {
+        "name": "warm",
+        "trans": [
+            "温暖的、暖和的"
+        ]
+    },
+    {
+        "name": "good credit",
+        "trans": [
+            "信用好"
+        ]
+    },
+    {
+        "name": "high income",
+        "trans": [
+            "收入高"
+        ]
+    },
+    {
+        "name": "criminal record",
+        "trans": [
+            "犯罪记录"
+        ]
+    },
+    {
+        "name": "eligible",
+        "trans": [
+            "适合的、可适用的"
+        ]
+    },
+    {
+        "name": "greater",
+        "trans": [
+            "大于"
+        ]
+    },
+    {
+        "name": "than",
+        "trans": [
+            "比较"
+        ]
+    },
+    {
+        "name": "drink",
+        "trans": [
+            "喝"
+        ]
+    },
+    {
+        "name": "cold",
+        "trans": [
+            "寒冷的"
+        ]
+    },
+    {
+        "name": "if",
+        "trans": [
+            "如果"
+        ]
+    },
+    {
+        "name": "else",
+        "trans": [
+            "否则"
+        ]
+    },
+    {
+        "name": "first class",
+        "trans": [
+            "头等舱"
+        ]
+    },
+    {
+        "name": "economy class",
+        "trans": [
+            "经济舱"
+        ]
+    },
+    {
+        "name": "adminitrator",
+        "trans": [
+            "管理员"
+        ]
+    },
+    {
+        "name": "teach",
+        "trans": [
+            "老师、教师"
+        ]
+    },
+    {
+        "name": "student",
+        "trans": [
+            "学生"
+        ]
+    },
+    {
+        "name": "guest",
+        "trans": [
+            "访客"
+        ]
+    },
+    {
+        "name": "role",
+        "trans": [
+            "角色"
+        ]
+    },
+    {
+        "name": "break",
+        "trans": [
+            "中断、打断"
+        ]
+    },
+    {
+        "name": "default",
+        "trans": [
+            "默认的"
+        ]
+    },
+    {
+        "name": "equal",
+        "trans": [
+            "等于"
+        ]
+    },
+    {
+        "name": "return",
+        "trans": [
+            "返回，java用于结束函数执行并提供返回值"
+        ]
+    },
+    {
+        "name": "continue",
+        "trans": [
+            "继续，java用于回到循环开始的位置继续执行"
+        ]
+    },
+    {
+        "name": "apple",
+        "trans": [
+            "苹果"
+        ]
+    },
+    {
+        "name": "orange",
+        "trans": [
+            "橙子"
+        ]
+    },
+    {
+        "name": "mango",
+        "trans": [
+            "芒果"
+        ]
+    },
+    {
+        "name": "fruit",
+        "trans": [
+            "水果"
+        ]
+    },
+    {
+        "name": "index",
+        "trans": [
+            "数组的下标、序号"
+        ]
+    }
+]

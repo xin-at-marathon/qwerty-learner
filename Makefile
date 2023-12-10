@@ -6,18 +6,30 @@ all:
 	npm run dict
 	npm run build
 
-NAME:=qwerty-xincloud-io
-
 .PHONY: setup teardown
-
 setup:
-	@echo "setup AWS cloudformation stack"
-	aws cloudformation create-stack \
-		--stack-name $(NAME) \
-		--parameters ParameterKey=DomainName,ParameterValue=qwerty.xincloud.io \
-					 ParameterKey=HostedZoneName,ParameterValue=xincloud.io. \
-		--template-body file://$(PWD)/index.yaml
-
+	aws_sam_template HttpsWebsite setup
 teardown:
-	@echo "teardown AWS cloudformation stack"
-	aws cloudformation delete-stack --stack-name $(NAME)
+	aws_sam_template HttpsWebsite teardown
+
+
+ifneq (,$(wildcard ./.env))
+    include .env
+    export
+endif
+
+.PHONY: deploy clean invalidate
+
+S3_BUCKET_NAME:=$(shell aws_sam_get_stack_output_value $(STACK_NAME) S3BucketRoot)
+deploy: clean invalidate
+	@echo deploy to bucket: $(S3_BUCKET_NAME)
+	aws s3 cp ./build s3://$(S3_BUCKET_NAME)/ --recursive
+
+clean:
+	@echo empty bucket: $(S3_BUCKET_NAME)
+	aws s3 rm s3://$(S3_BUCKET_NAME) --recursive
+
+CF_DISTRIBUTION_ID:=$(shell aws_sam_get_stack_output_value $(STACK_NAME) CFDistributionId)
+invalidate:
+	@echo invalidate CloudFront: $(CF_DISTRIBUTION_ID)
+	aws cloudfront create-invalidation --no-cli-pager --distribution-id $(CF_DISTRIBUTION_ID) --paths '/*'

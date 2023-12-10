@@ -2715,6 +2715,28 @@ const javaProgramBasic: DictionaryResource[] = [
     language: 'code',
     languageCategory: 'code',
   },
+  {
+    id: 'JavaProgramBasic-Lession4',
+    name: '第4讲：程序流程控制',
+    description: '布尔表达式、if...else、循环',
+    category: '代码练习',
+    tags: ['程序设计基础'],
+    url: '/dicts/JavaProgramBasic-Lession4.json',
+    length: 29,
+    language: 'code',
+    languageCategory: 'code',
+  },
+  {
+    id: 'JavaProgramBasic-Lsssion9',
+    name: '第9讲：Web开发基础',
+    description: 'Html、CSS、Javascript',
+    category: '代码练习',
+    tags: ['程序设计基础'],
+    url: '/dicts/JavaProgramBasic-Lsssion9.json',
+    length: 10,
+    language: 'code',
+    languageCategory: 'code',
+  },
 ]
 
 /**
