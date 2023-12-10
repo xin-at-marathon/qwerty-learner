@@ -20,12 +20,9 @@ endif
 
 .PHONY: deploy clean invalidate
 
-ARTIFACT_BUCKET_NAME:=artifact-bucket-devops-xincloud
 S3_BUCKET_NAME:=$(shell aws_sam_get_stack_output_value $(STACK_NAME) S3BucketRoot)
 deploy: clean invalidate
 	@echo deploy to bucket: $(S3_BUCKET_NAME)
-	aws s3 cp s3://$(ARTIFACT_BUCKET_NAME)/codebuild/$(BUILD_ID)/output.zip output.zip
-	unzip output.zip
 	aws s3 cp ./build s3://$(S3_BUCKET_NAME)/ --recursive
 
 clean:
