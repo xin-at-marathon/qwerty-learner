@@ -5,5 +5,6 @@ phases:
     commands:
       - echo started on `date`
       - aws s3 cp s3://$ARTIFACT_BUCKET/codebuild/$BUILD_ID/output.zip output.zip
-      - unzip output.zip
+      - unzip output.zip && rm -f output.zip
+      - ls -al
       - make deploy
