@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Build started on `date`
-      - aws s3 cp s3://artifact-bucket-devops-xincloud/codebuild/$BUILD_ID/output.zip output.zip
+      - echo started on `date`
+      - aws s3 cp s3://artifact-bucket-devops-xincloud/codebuild/$JOB_BUILD_ID/output.zip output.zip
       - unzip output.zip
       - make deploy
