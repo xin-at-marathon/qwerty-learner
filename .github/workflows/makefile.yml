@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     outputs:
-      build-id: ${{ steps.codebuild.outputs.aws-build-id }}
+      build-id: ${{ steps.codebuild.outputs['aws-build-id'] }}
     steps:
       - id: codebuild
         name: Build artifact
@@ -34,6 +34,6 @@ jobs:
             AWS_ACCESS_KEY_ID,
             AWS_SECRET_ACCESS_KEY
         env:
-          BUILD_ID: ${{ jobs.build.outputs.build-id }}
+          BUILD_ID: ${{ jobs.build.outputs['build-id'] }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
