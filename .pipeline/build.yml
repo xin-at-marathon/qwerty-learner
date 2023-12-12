@@ -9,3 +9,6 @@ phases:
 artifacts:
   files:
     - 'build/**/*'
+cache:
+  paths:
+    - /home/circleci/.npm/**/*
