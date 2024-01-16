@@ -13,8 +13,8 @@ teardown:
 	aws_sam_template HttpsWebsite teardown
 
 
-ifneq (,$(wildcard ./.env))
-    include .env
+ifneq (,$(wildcard ./sam.config))
+    include sam.config
     export
 endif
 
